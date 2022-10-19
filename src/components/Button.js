@@ -1,14 +1,6 @@
 import React from 'react'
 
-const style={
-    padding: '6px',
-    backgroundColor: 'yellow',
-    color: 'white',
-    fontWeight: 'bold',
-    borderRadius: '50%'
-}
-
-export const Button = ({disabled, onClick, children}) => {
+export const Button = ({disabled, onClick, children, style}) => {
     return (
         <button 
         style={style}
